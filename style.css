@@ -40,7 +40,6 @@ header ul li {
 .title-line {
     width: 60px;
     height: 4px;
-    background-color: green;
     margin: 3em 0;
 }
 
@@ -66,7 +65,6 @@ h2 {
 }
 
 .member {
-    background-color: lightgreen;
     text-align: center;
     padding: 1em;
     display: flex;
@@ -89,6 +87,14 @@ h2 {
     justify-content: space-around;
     margin-left: 35%;
     margin-right: 35%;
+}
+
+p {
+    padding: 0.8em 0;
+}
+
+#about ol {
+    padding-left: 1em;
 }
 
 .logo {
