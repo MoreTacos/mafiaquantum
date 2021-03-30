@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quantum Mechanics Mafia | Learn The Intuition by Explaining</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <div class="front">
+        <header>
+          <a href="/">
+            <img class="logo" src="/assets/logo.png" alt="Logo"
+          /></a>
+          <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#members">Members</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div>
+          <canvas class="background"></canvas>
+          <img
+            class="blackboard"
+            src="/assets/blackboard.jpg"
+            alt="Blackboard"
+          />
+          <div class="title-line"></div>
+          <h1>A community learning math from first principles as an art</h1>
+        </div>
+      </div>
+      <div id="about">
+        <h2>About</h2>
+        <p>
+          lfjwejoifjoqwejofjweqo jwoq jfoiwejqo jj jqwo jfoeqwjoi jfewoqijf oj
+          oqw jowj ojf oijoiw qjojj iowqje j owqej oiwjefoij woj jweoij foiwej
+          oijweo fjweoi jf
+        </p>
+      </div>
+      <div id="members-section">
+        <h2>Members</h2>
+        <div id="members">
+          <div class="member">
+            <img src="/assets/davideradaelli.jpg" />
+            <h3>Davide Radaelli</h3>
+            <div class="socials">
+              <a href="/"><i class="fa fa-twitter"></i></a>
+              <a href="/"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/assets/lanab.jpg" />
+            <h3>Lana Bozanic</h3>
+            <div class="socials">
+              <a href="/"><i class="fa fa-twitter"></i></a>
+              <a href="/"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/assets/taman.jpg" />
+            <h3>Tam An Le Quang</h3>
+            <div class="socials">
+              <a href="/"><i class="fa fa-twitter"></i></a>
+              <a href="/"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/assets/dicksonwu.jpg" />
+            <h3>Dickson Wu</h3>
+            <div class="socials">
+              <a href="/"><i class="fa fa-twitter"></i></a>
+              <a href="/"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/assets/avneesh.jpg" />
+            <h3>Avneesh Verma</h3>
+            <div class="socials">
+              <a href="/"><i class="fa fa-twitter"></i></a>
+              <a href="/"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/assets/adar.jpg" />
+            <h3>Adar Kahiri</h3>
+            <div class="socials">
+              <a href="/"><i class="fa fa-twitter"></i></a>
+              <a href="/"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/assets/jacobcole.jpg" />
+            <h3>Jacob Cole</h3>
+            <div class="socials">
+              <a href="/"><i class="fa fa-twitter"></i></a>
+              <a href="/"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>© 2021 Quantum Mechanics Mafia</p>
+      <ul>
+        <li><a href="/">Mafia</a></li>
+        <li><a href="https://twitter.com/MafiaQuantum">Twitter</a></li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCjkSuJOws1uKY7EWs4M6R7Q"
+            >Youtube</a
+          >
+        </li>
+        <li><a href="/">Newsletter</a></li>
+      </ul>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <script>
+      var particles = Particles.init({
+        selector: ".background",
+        connectParticles: true,
+        color: "#909090",
+      });
+    </script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script> 
+  </body>
+</html>
