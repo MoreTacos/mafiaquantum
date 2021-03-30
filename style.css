@@ -54,15 +54,6 @@ main h1 {
     width: 70%;
 }
 
-main h5 {
-    padding-top: 1em;
-    font-size: 1.2em;
-}
-
-main h5 a {
-    color: white;
-}
-
 h2 {
     font-size: 2.5em;
     padding-top: 2em;
@@ -108,12 +99,25 @@ p {
 }
 
 .mafia-twitter {
-    padding: 1em;
-    font-size: 1.5em !important;
+    padding: 0.7em;
+    font-size: 1.2em !important;
 }
 
 .fa-linkedin {
     color: #0072b1;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa-envelope {
+    color: #303030;
+}
+
+.mafia-youtube {
+    padding: 0.7em;
+    font-size: 1.2em !important;
 }
 
 #about ol {
