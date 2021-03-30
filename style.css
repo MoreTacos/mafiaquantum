@@ -56,13 +56,17 @@ main h1 {
 
 h2 {
     font-size: 2.5em;
-    padding-top: 2em;
+    padding-top: 1.4em;
 }
 
 #members {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
+}
+
+#members-section h2 {
+    font-size: 4em;
 }
 
 .member {
@@ -120,8 +124,39 @@ p {
     font-size: 1.2em !important;
 }
 
-#about ol {
-    padding-left: 1em;
+#about h2 {
+    font-size: 4em;
+}
+
+#about ul {
+    display: flex;
+    list-style: none;
+    padding: 1em;
+    font-size: 1.4em;
+}
+
+#about ul li {
+    padding: 1em;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+#faq h3 {
+    font-size: 1.4em;
+}
+
+#faq p {
+    font-size: 1.2em;
+}
+
+#faq .answer {
+    padding: 1em 0;
+}
+
+#faq h2 {
+    font-size: 4em;
 }
 
 .logo {
@@ -181,6 +216,17 @@ footer ul li a {
     }
     header ul {
         justify-content: space-around;
+    }
+    #about p {
+        width: 100%;
+    }
+    #about ul {
+        display: block;
+        list-style: none;
+        font-size: 1.4em;
+    }
+    #about ul li {
+        padding: 1em;
     }
     #members {
         grid-template-columns: 1fr 1fr;
