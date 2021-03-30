@@ -103,6 +103,19 @@ p {
     padding: 0.8em 0;
 }
 
+.fa-twitter {
+    color: #55acee;
+}
+
+.mafia-twitter {
+    padding: 1em;
+    font-size: 1.5em !important;
+}
+
+.fa-linkedin {
+    color: #0072b1;
+}
+
 #about ol {
     padding-left: 1em;
 }
