@@ -78,9 +78,15 @@ h2 {
 
 .member h3 {
     padding: 1em;
+    padding-bottom: 0.3em;
     font-size: 1em;
     font-weight: 1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.member p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.7em;
 }
 
 .member img {
