@@ -49,6 +49,10 @@ header ul li {
     color: white;
 }
 
+.p-social {
+    font-size: 1.4em;
+}
+
 main h1 {
     font-size: 4em;
     width: 70%;
@@ -111,7 +115,7 @@ p {
 
 .mafia-twitter {
     padding: 0.7em;
-    font-size: 1.2em !important;
+    font-size: 1.5em !important;
 }
 
 .fa-linkedin {
@@ -128,7 +132,7 @@ p {
 
 .mafia-youtube {
     padding: 0.7em;
-    font-size: 1.2em !important;
+    font-size: 1.5em !important;
 }
 
 #about h2 {
