@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -55,7 +55,7 @@ header ul li {
 
 main h1 {
     font-size: 4em;
-    width: 70%;
+    width: 74%;
 }
 
 h2 {
@@ -70,7 +70,7 @@ h2 {
 }
 
 #members-section h2 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .member {
@@ -136,7 +136,7 @@ p {
 }
 
 #about h2 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 #about ul {
@@ -167,7 +167,7 @@ p {
 }
 
 #faq h2 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .logo {
