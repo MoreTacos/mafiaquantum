@@ -90,7 +90,7 @@ h2 {
 
 .member p {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 0.7em;
+    font-size: 0.7em !important;
 }
 
 .member img {
@@ -151,6 +151,10 @@ p {
 }
 
 #about p {
+    font-size: 1.2em;
+}
+
+#members-section p {
     font-size: 1.2em;
 }
 
